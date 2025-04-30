@@ -11,5 +11,5 @@
   - Open a terminal in the backend directory.
   - Run the following command:
     ```bash
-    node toggle.js
+    node index.js
     ```
