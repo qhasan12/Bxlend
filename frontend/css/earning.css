@@ -1,0 +1,52 @@
+/* Start Earning Section */
+.start-earning-section {
+    padding: 80px 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: left; 
+}
+
+/* Heading Adjustment */
+.start-earning-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #333;
+    padding-left: 20px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Start Earning Container */
+.start-earning-container {
+    display: flex;
+    justify-content: flex-start; 
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-bottom: 40px;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+/* Get Started Button Container */
+.get-started-btn-container {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.btn-get-started {
+    background-color: #00d4ff;
+    color: #090909;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-get-started:hover {
+    background-color: #15e0c5;
+    transform: translateY(-2px);
+}

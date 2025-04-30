@@ -1,0 +1,35 @@
+
+
+.navbar-custom {
+    background-color: #0B1F4A; 
+  }
+  
+  .navbar-brand img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .nav-link {
+    color: white;
+    margin: 0 10px;
+  }
+  
+  .nav-link:hover {
+    color: #FFD700;
+  }
+  
+  .icon-btn img {
+    width: 20px;
+    height: 24px;
+  }
+  
+  .user-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .nav-item mx-auto{
+    font-size: small;
+  }

@@ -1,0 +1,68 @@
+/* Need Help Section */
+.need-help-section {
+    padding: 80px 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.need-help-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: left;
+    padding-left: 20px;
+    color: #333;
+}
+
+.help-options-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.help-option {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    max-width: 300px;
+}
+
+.help-heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+    padding: 0 90px;
+}
+
+.help-text {
+    font-size: 18px;
+    color: #6c757d;
+    padding: 0 90px;
+}
+
+.get-started-btn-container {
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.btn-get-started {
+    background-color: #00d4ff;
+    color: #090909;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-get-started:hover {
+    background-color: #15e0c5;
+    transform: translateY(-2px);
+}

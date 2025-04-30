@@ -1,0 +1,14 @@
+/* Footer Style */
+.footer {
+    background-color: #0B1F4A;
+    color: #fff; 
+    padding: 60px 20px; 
+    text-align: left; 
+    margin-top: 80px; 
+}
+
+/* Footer Text Style */
+.footer p {
+    font-size: 18px; 
+    margin: 0; 
+}

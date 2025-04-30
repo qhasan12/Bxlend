@@ -1,0 +1,49 @@
+/* Popular Crypto Section */
+.popular-crypto-section h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.crypto-table {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.crypto-table-header {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    gap: 0;
+}
+
+.crypto-table-header span {
+    text-align: center;
+    flex: 1; /* Ensures even distribution of space */
+}
+
+/* Specific padding for each heading */
+.crypto-table-header .name {
+    padding-left: 20px;  /* Adjust padding for Name */
+}
+
+.crypto-table-header .price {
+    padding-left: 10px;  /* Adjust padding for Price */
+}
+
+.crypto-table-header .change {
+    padding-left: 5px;  /* Adjust padding for 24h Change */
+}
+
+.crypto-table-header .market-cap {
+    padding-left: 100px;  /* Adjust padding for Market Cap to align with number */
+}
+
+.crypto-table-body img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 15px; /* Adds space between headings and image */
+}

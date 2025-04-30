@@ -1,0 +1,101 @@
+/* Hero Section */
+.hero-section {
+    margin: 0;
+    padding: -50px 0; 
+    background-color: #f8f9fa; 
+}
+
+/* Success message on top */
+.login-message {
+    text-align: right;
+    margin: 5px 20px;
+    font-weight: bold;
+    color: #28a745;
+    font-size: 1rem;
+}
+
+/* Main hero area */
+.hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+/* Left side text */
+.hero-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* Heading text */
+.hero-text h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: #0d1b2a;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Buttons area */
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Button styles */
+.btn-get-started {
+    background-color: #00d4ff;
+    color: #090909;
+    border: none;
+    padding: 12px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-get-started:hover {
+    background-color: #15e0c5;
+}
+
+/* Outline button */
+.btn-outline-primary {
+    border: 2px solid #000405;
+    color: #00090a;
+    background: transparent;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-outline-primary:hover {
+    background-color: #00d4ff;
+    color: #fff;
+}
+
+/* Right side image */
+.hero-image {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: -70px;
+    align-items: center;
+}
+
+.hero-image img {
+    max-width: 90%;
+    height: auto;
+    margin-left: 130px;
+}

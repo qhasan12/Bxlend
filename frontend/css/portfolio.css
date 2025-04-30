@@ -1,0 +1,121 @@
+.crypto-profile-section {
+    padding: 40px 20px;
+}
+
+.crypto-profile-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.crypto-profile-section .subheading {
+    font-size: 18px;
+    color: #6c757d;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* Steps Section */
+.crypto-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.step {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    margin-bottom: -10px; 
+}
+
+.step-left {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    flex: 1;
+    position: relative;
+}
+
+.step-number {
+    font-size: 39px;
+    font-weight: bold;
+    color: #000;
+    min-width: 20px; 
+    text-align: right; 
+    margin-right: 50px; 
+    margin-top: 5px;
+}
+
+.step-content {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.step-content h4 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0; 
+}
+
+.step-text {
+    font-size: 19px;
+    color: #6c757d;
+    margin: 0;
+    padding: 0px;
+}
+
+.step-image-container {
+    max-width: 35%;
+    margin-left: 20px; 
+    position: relative;
+}
+
+.step-image {
+    width: 50%;
+    height: auto;
+    margin-top: -10px; 
+}
+
+/* Button styling */
+.get-started-btn-container {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+
+.btn-get-started {
+    background-color: #00d4ff;
+    color: #090909;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-get-started:hover {
+    background-color: #15e0c5;
+}
+
+/* images */
+.step:nth-child(1) .step-image {
+    margin-top: -100px;
+    margin-left: -25px;
+}
+
+.step:nth-child(2) .step-image {
+    margin-top: -70px;
+    margin-left: 180px;
+}
+
+.step:nth-child(3) .step-image {
+    margin-top: -70px;
+    margin-left: 20px;
+}
